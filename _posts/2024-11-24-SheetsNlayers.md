@@ -41,4 +41,5 @@ moreflags.zip/moreflags/moreflags.xlsx:ne.11.88:moreflags/moreflags.xlsx:morefla
 
 1 password hash cracked, 0 left
 ```
-Notice that we manage to get the password to the archive as shown in the output above: `ne.11.88` I then used this password to access the archive.
+Notice that we manage to get the password to the archive as shown in the output above: `ne.11.88` I then used this password to access the archive. What I found in the archive was an excel sheet with the name: `moreflags.xlsx`. On opening the file, It seemed blank at first sight. But then I right-clicked sheet 1 and clicked unhide, and found 3 more hidden sheets. So I retrieved them one after another with the same process as illustrated below:
+![Flag1](/assets/images/PerfectRoot/SheetsNLayers/Flag1.png)
