@@ -1,7 +1,6 @@
 ---
 title: "SheetsNlayers"
 date: 2024-11-24 01:09:33 +0300
-author: hushkat
 image: /assets/images/PerfectRootLogo.png
 categories: [Misc, PerfectRoot]
 tags: [Misc, Easy, PerfectRoot]
