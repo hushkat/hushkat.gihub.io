@@ -69,3 +69,12 @@ Third flag ~ `r00t{87cbca61937eee620812f9e8e5c53d00}`
 # SheetsNLayers4
 ## Instructions
 What is flag 4?
+
+After solving the last three challenges in this series, I finally got to the last one. I thought to myself, that this is probably going to be as easy as the first three, only to open the sheet and see alot of "blood" with "no comments". Just see for yourself:
+
+Anyway I decided to first deal with the "blood", I set the whole sheet to white then started looking for more clues. Immediately I saw a cell that stood out and decided to hover my cursor over it and once again, the flag was right there. Use your eyes once again, they say seeing is believing:
+
+Let's try and decode it (This time though, CyberChef didnt help so I went back to dcode) The encryption was identified as ROT47 and decoded successfully as shown below:
+
+That gave me the last flag for the challenge ~ `r00t{87cbca61937eee620812f9e8e5c53d00}`
+
