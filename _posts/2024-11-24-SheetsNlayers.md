@@ -9,8 +9,11 @@ tags: [Misc, Easy, PerfectRoot]
 ---
 
 # SheetsNLayers1
+This was a 4-part series of challenges linked to each other. I will explain my approach on solving the challenge below as I captured the first to last flag in that series.
+
 ## Instructions
 What is flag 1?
+
 We are given a file to download which happened to be a zip file. 
 ![TaskFile](/assets/images/PerfectRoot/SheetsNLayers/TaskFile.png)
 I went ahead to unzip the file and found a `SheetsNlayers.vhdx` file, this is a file format used for virtual hard disks. I then mounted the disk on my host machine to explore it further.
@@ -47,4 +50,8 @@ On opening the flag 2 sheet, I found the flag in an encrypted format:
 ![Flag2Encrypted](/assets/images/PerfectRoot/SheetsNLayers/Flag2Encrypted.png)
 I then copied the flag text and headed to cyberchef where I managed to successfully decode the flag from base85 to plain text as illustrated below:
 ![Flag2Encrypted](/assets/images/PerfectRoot/SheetsNLayers/Flag2.png)
-`r00t{df38bae72ccf3f172345dcee96a7ea21}`
+I managed to capture my second flag ~ `r00t{df38bae72ccf3f172345dcee96a7ea21}`
+
+# SheetsNLayers3
+## Instructions
+What is flag 3?
