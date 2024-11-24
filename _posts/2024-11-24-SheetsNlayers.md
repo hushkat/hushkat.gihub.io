@@ -69,12 +69,13 @@ Third flag ~ `r00t{87cbca61937eee620812f9e8e5c53d00}`
 # SheetsNLayers4
 ## Instructions
 What is flag 4?
+![TaskFile](/assets/images/PerfectRoot/SheetsNLayers/Task4.png)
 
 After solving the last three challenges in this series, I finally got to the last one. I thought to myself, that this is probably going to be as easy as the first three, only to open the sheet and see alot of "blood" with "no comments". Just see for yourself:
-
+![NoComments](/assets/images/PerfectRoot/SheetsNLayers/RedNoComment.png)
 Anyway I decided to first deal with the "blood", I set the whole sheet to white then started looking for more clues. Immediately I saw a cell that stood out and decided to hover my cursor over it and once again, the flag was right there. Use your eyes once again, they say seeing is believing:
-
+![Flag4Encrypted](/assets/images/PerfectRoot/SheetsNLayers/Flag4Encrypted.png)
 Let's try and decode it (This time though, CyberChef didnt help so I went back to dcode) The encryption was identified as ROT47 and decoded successfully as shown below:
-
+![Flag4Decrypted](/assets/images/PerfectRoot/SheetsNLayers/Flag4.png)
 That gave me the last flag for the challenge ~ `r00t{87cbca61937eee620812f9e8e5c53d00}`
 
