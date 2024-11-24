@@ -50,14 +50,22 @@ Notice that we manage to get the password to the archive as shown in the output 
 On opening the flag 2 sheet, I found the flag in an encrypted format:
 ![Flag2Encrypted](/assets/images/PerfectRoot/SheetsNLayers/Flag2Encrypted.png)
 I then copied the flag text and headed to cyberchef where I managed to successfully decode the flag from base85 to plain text as illustrated below:
-![Flag2Encrypted](/assets/images/PerfectRoot/SheetsNLayers/Flag2.png)
+![Flag2Decrypted](/assets/images/PerfectRoot/SheetsNLayers/Flag2.png)
 I managed to capture my second flag ~ `r00t{df38bae72ccf3f172345dcee96a7ea21}`
 
 # SheetsNLayers3
 ## Instructions
 What is flag 3?
+![TaskFile](/assets/images/PerfectRoot/SheetsNLayers/Task3.png)
 
-Moving on to task 3, I open sheet 3 trying to find the third flag. I find it sitting right there, but it seems encoded once again. I therefore click on the first cell and copy the text in that cell, which happened to be: `flag3 - TVRFMElEUTRJRFE0SURFeE5pQXhNak1nTlRZZ05UVWdPVGtnT1RnZ09Ua2dPVGNnTlRRZ05Ea2dOVGNnTlRFZ05UVWdNVEF4SURFd01TQXhNREVnTlRRZ05UQWdORGdnTlRZZ05Ea2dOVEFnTVRBeUlEVTNJREV3TVNBMU5pQXhNREVnTlRNZ09Ua2dOVE1nTlRFZ01UQXdJRFE0SURRNElERXlOUT09 TVRFMElEUTRJRFE0SURFeE5pQXhNak1nTlRZZ05UVWdPVGtnT1RnZ09Ua2dPVGNnTlRRZ05Ea2dOVGNnTlRFZ05UVWdNVEF4SURFd01TQXhNREVnTlRRZ05UQWdORGdnTlRZZ05Ea2dOVEFnTVRBeUlEVTNJREV3TVNBMU5pQXhNREVnTlRNZ09Ua2dOVE1nTlRFZ01UQXdJRFE0SURRNElERXlOUT09 TVRFMElEUTRJRFE0SURFeE5pQXhNak1nTlRZZ05UVWdPVGtnT1RnZ09Ua2dPVGNnTlRRZ05Ea2dOVGNnTlRFZ05UVWdNVEF4SURFd01TQXhNREVnTlRRZ05UQWdORGdnTlRZZ05Ea2dOVEFnTVRBeUlEVTNJREV3TVNBMU5pQXhNREVnTlRNZ09Ua2dOVE1nTlRFZ01UQXdJRFE0SURRNElERXlOUT09
-` Looking at it closely, I noticed, its the same text, repeated thrice. So I did some cleaning by removing the prefix `flag3` then followed to remove two of the repitions and headed back to cyberchef to see if I could decrypt the text and obtain the flag. As shown below, it was encrypted more than once, but once again, I was able to decode it with the help of Cyberchef and got the flag for this challenge:
-
+Moving on to task 3, I open sheet 3 trying to find the third flag. 
+![Flag3Encrypted](/assets/images/PerfectRoot/SheetsNLayers/Flag3Encrypted.png)
+I find it sitting right there, but it seems encoded once again. I therefore click on the first cell and copy the text in that cell, which happened to be:
+`flag3 - TVRFMElEUTRJRFE0SURFeE5pQXhNak1nTlRZZ05UVWdPVGtnT1RnZ09Ua2dPVGNnTlRRZ05Ea2dOVGNnTlRFZ05UVWdNVEF4SURFd01TQXhNREVnTlRRZ05UQWdORGdnTlRZZ05Ea2dOVEFnTVRBeUlEVTNJREV3TVNBMU5pQXhNREVnTlRNZ09Ua2dOVE1nTlRFZ01UQXdJRFE0SURRNElERXlOUT09 TVRFMElEUTRJRFE0SURFeE5pQXhNak1nTlRZZ05UVWdPVGtnT1RnZ09Ua2dPVGNnTlRRZ05Ea2dOVGNnTlRFZ05UVWdNVEF4SURFd01TQXhNREVnTlRRZ05UQWdORGdnTlRZZ05Ea2dOVEFnTVRBeUlEVTNJREV3TVNBMU5pQXhNREVnTlRNZ09Ua2dOVE1nTlRFZ01UQXdJRFE0SURRNElERXlOUT09 TVRFMElEUTRJRFE0SURFeE5pQXhNak1nTlRZZ05UVWdPVGtnT1RnZ09Ua2dPVGNnTlRRZ05Ea2dOVGNnTlRFZ05UVWdNVEF4SURFd01TQXhNREVnTlRRZ05UQWdORGdnTlRZZ05Ea2dOVEFnTVRBeUlEVTNJREV3TVNBMU5pQXhNREVnTlRNZ09Ua2dOVE1nTlRFZ01UQXdJRFE0SURRNElERXlOUT09` 
+Looking at it closely, I noticed, its the same text, repeated thrice. I therefore did some cleaning by removing the prefix `flag3 - ` then followed to remove two of the repitions and headed back to cyberchef to see if I could decrypt the text and obtain the flag. As shown below, it was encrypted more than once, but once again, I was able to decode it with the help of Cyberchef and got the flag for this challenge:
+![Flag3Decrypted](/assets/images/PerfectRoot/SheetsNLayers/Flag3.png)
 Third flag ~ `r00t{87cbca61937eee620812f9e8e5c53d00}`
+
+# SheetsNLayers4
+## Instructions
+What is flag 4?
