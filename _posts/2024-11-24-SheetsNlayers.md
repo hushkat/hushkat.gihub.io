@@ -21,6 +21,7 @@ I noticed that it contained three more files, one which just happens to be our f
 # SheetsNLayers2
 ## Instructions
 What is flag 2?
+
 Now that we found flag 1, its time to further explore teh rest of the files and see what we can find. I started by reading the note that was present in the disk we accessed. What I found there was this text: `This next archieve contains more flags. Unfortunately the file looks preety blank to me and i can't seem to get all flags. (flag-2 , flag-3, flag-4) Good luck.` So I immediately tried to access the archive called `moreflags.zip` but I couldnt, since it had a password. It was therefore time to start cracking using `JohnTheRipper` by using the following commands on a unix terminal:
 ```
 zip2john moreflags.zip > moreflags.hash #To extract the archive's hash
