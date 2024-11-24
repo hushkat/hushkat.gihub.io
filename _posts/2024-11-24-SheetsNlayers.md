@@ -8,10 +8,9 @@ categories: [Misc, PerfectRoot]
 tags: [Misc, Easy, PerfectRoot]
 ---
 
-# SheetsNLayers1
 This was a 4-part series of challenges linked to each other. I will explain my approach on solving the challenge below as I captured the first to last flag in that series.
 
-## Instructions
+## SheetsNLayers1
 What is flag 1?
 
 We are given a file to download which happened to be a zip file. 
@@ -21,8 +20,7 @@ I went ahead to unzip the file and found a `SheetsNlayers.vhdx` file, this is a 
 I noticed that it contained three more files, one which just happens to be our first flag, so on opening it, this is what I found: `=03YkNTNlNzYjZjYmVGMmFWZ4MTO1QWY0AzM0MmNhdjMzsHdwAjc`. Looks like a Base64 encoded string. I decoded this string from `https://www.dcode.fr/base-64-encoding` and noticed that it was in reversed form, giving us the flag: `r00t{327a6c4304ad5938eaf0efb6cc3e53dc}` This has been illustrated below:
 ![Flag1](/assets/images/PerfectRoot/SheetsNLayers/Flag1.png)
 
-# SheetsNLayers2
-## Instructions
+## SheetsNLayers2
 What is flag 2?
 ![TaskFile](/assets/images/PerfectRoot/SheetsNLayers/Task2.png)
 
@@ -53,8 +51,7 @@ I then copied the flag text and headed to cyberchef where I managed to successfu
 ![Flag2Decrypted](/assets/images/PerfectRoot/SheetsNLayers/Flag2.png)
 I managed to capture my second flag ~ `r00t{df38bae72ccf3f172345dcee96a7ea21}`
 
-# SheetsNLayers3
-## Instructions
+## SheetsNLayers3
 What is flag 3?
 ![TaskFile](/assets/images/PerfectRoot/SheetsNLayers/Task3.png)
 
@@ -66,8 +63,7 @@ Looking at it closely, I noticed, its the same text, repeated thrice. I therefor
 ![Flag3Decrypted](/assets/images/PerfectRoot/SheetsNLayers/Flag3.png)
 Third flag ~ `r00t{87cbca61937eee620812f9e8e5c53d00}`
 
-# SheetsNLayers4
-## Instructions
+## SheetsNLayers4
 What is flag 4?
 ![TaskFile](/assets/images/PerfectRoot/SheetsNLayers/Task4.png)
 
