@@ -2,8 +2,7 @@
 title: Keep it Simple
 date: 2023-06-21
 description: The answer is simple
-image: /assets/images
-/keep-it-simple/The eye.jpg
+image: /assets/images/keep-it-simple/The eye.jpg
 tags: [CyberTalents, Digital Forensics]
 categories:[Digital Forensics, Easy, CyberTalents]
 ---
