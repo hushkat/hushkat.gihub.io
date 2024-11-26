@@ -1,7 +1,7 @@
 ---
 title: Welcome Blog
 weight: 10
-description: My CTF Journey: A Beginner's Exploration of Cybersecurity
+description: My CTF Journey. A Beginner's Exploration of Cybersecurity.
 date: 2023-06-03 00:00:00+0000
 image: /assets/images/welcome-blog/cover.jpg
 categories: [General]
