@@ -1,7 +1,7 @@
 ---
 title: Welcome Blog
 description: My CTF Journey. A Beginner's Exploration of Cybersecurity.
-date: 2023-06-03 00:00:00+0000
+date: 2024-11-26 00:00:00+0000
 image: /assets/images/welcome-blog/cover.jpg
 categories: [General]
 tags: [General]
