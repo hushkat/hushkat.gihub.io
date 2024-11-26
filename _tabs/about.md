@@ -5,6 +5,7 @@ order: 4
 ---
 
 ## Introduction
+![Dali](/assets/images/welcome-blog/cover.jpg)
 
 Hello, fellow cybersecurity enthusiasts! Welcome to my CTF Journey, where I, will be sharing my experiences, challenges, and triumphs as I embark on a thrilling adventure into the world of Capture The Flag (CTF) competitions. This blog will primarily revolve around CTFs, as I dive headfirst into this captivating realm of cybersecurity.
 
