@@ -33,7 +33,7 @@ I then replaced the spaces (" ") with underscores as per the instructions, then 
 ## DESIGN
 This was yet another interesting misc challenge. We were presented with [this](https://drive.google.com/file/d/1zds3ymqwPkKuR8SXGeMiKuuKTr1gqoRb/view?usp=sharing) CSV file. The instructions simply asked:
 `Can you sculpt me ?`
-Opening the file using Microsoft Excel, we find a long list of values mapped in two columns labelled `X` and `Y`. Given the name of the challenge, file and intstructions I immediately assumed that this might be an image pixel coordinates. I therefore went ahead and asked chatGPT to come up with a python script that could reconstruct the image and it came up with this awesome script that did just that:
+Opening the file using Microsoft Excel, we find a long list of values mapped in two columns labelled `X` and `Y`. Given the name of the challenge, file and instructions I immediately assumed that these might be image pixel coordinates. I therefore went ahead and asked chatGPT to come up with a python script that could reconstruct the image and it came up with this awesome script that did just that:
 ```
 import pandas as pd
 import numpy as np
@@ -79,4 +79,4 @@ Then managed to retrieve this image:
 
 ![flag](/assets/images/GlacierCTF/Figure_1.png)
 
-I therefore just added the flag prefix and subitted the final flag as: `NGCCTF{CTF_Navigating_the_Digital_Maze_4f8ae63f9}`
+I therefore just added the flag prefix and submitted the final flag as: `NGCCTF{CTF_Navigating_the_Digital_Maze_4f8ae63f9}`
