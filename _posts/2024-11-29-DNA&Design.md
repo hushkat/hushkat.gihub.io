@@ -1,11 +1,11 @@
 ---
-title: "DNA"
+title: "DNA & Design"
 date: 2024-11-29 01:09:33 +0300
-author: [hushkat]
+author: [hushkat, mystique]
 description: GlacierCTF Writeups
 image: /assets/images/GlacierCTF/afnextgenw.png
-categories: [Crypto, Easy, GlacierCTF]
-tags: [Crypto, Easy, GlacierCTF]
+categories: [Crypto, Misc, Easy, GlacierCTF]
+tags: [Crypto, Misc, Easy, GlacierCTF]
 ---
 ## DNA
 
@@ -23,9 +23,12 @@ From research this seems to be some kind of DNA type of encryption. I also learn
 
 `TCA TAG GCT AGC TAC ACT CGT TGT ACA CTA GAC AGC TAC ACT CTC TGA AGC TAG CTA TGA AGC GTC CTA CTC CTA TGA`
 
-One of my team leads gave me this link that has mappings that could decode the above string. Managed to decode from ![here](https://earthsciweb.org/js/bio/dna-writer/index.html?seq=CGTCTAATCATCTGTAGCGTCGATGACTGA#base_to_text)
+One of my team leads gave me this link that has mappings that could decode the above string. Managed to decode from [here](https://earthsciweb.org/js/bio/dna-writer/index.html?seq=CGTCTAATCATCTGTAGCGTCGATGACTGA#base_to_text)
 
 The resulting string: `CTF DAHOMEY DANS TES GENES`
 
 I then replaced the spaces (" ") with underscores as per the instructions, then embedded the flag prefix to the string.
 `NGCCTF{CTF_DAHOMEY_DANS_TES_GENES}`
+
+## DESIGN
+This was yet another interesting misc challenge. We were presented with [this]() CSV file
