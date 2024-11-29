@@ -31,4 +31,50 @@ I then replaced the spaces (" ") with underscores as per the instructions, then 
 `NGCCTF{CTF_DAHOMEY_DANS_TES_GENES}`
 
 ## DESIGN
-This was yet another interesting misc challenge. We were presented with [this]() CSV file
+This was yet another interesting misc challenge. We were presented with [this](https://drive.google.com/file/d/1zds3ymqwPkKuR8SXGeMiKuuKTr1gqoRb/view?usp=sharing) CSV file. The instructions simply asked:
+`Can you sculpt me ?`
+Opening the file using Microsoft Excel, we find a long list of values mapped in two columns labelled `X` and `Y`. Given the name of the challenge, file and intstructions I immediately assumed that this might be an image pixel coordinates. I therefore went ahead and asked chatGPT to come up with a python script that could reconstruct the image and it came up with this awesome script that did just that:
+```
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+
+file_path = 'Art.csv'
+
+# Step 1: Load and inspect the data
+try:
+    data = pd.read_csv(file_path)
+    print("Column names:", data.columns)
+except Exception as e:
+    print(f"Error reading the file: {e}")
+    exit()
+
+# Step 2: Adjust column names as needed
+if 'x' in data.columns and 'y' in data.columns:
+    x_coords = data['x']
+    y_coords = data['y']
+elif 'X' in data.columns and 'Y' in data.columns:  # Example alternative
+    x_coords = data['X']
+    y_coords = data['Y']
+else:
+    print("Error: Could not find 'x' and 'y' columns in the file.")
+    exit()
+
+# Continue as before
+max_x = x_coords.max()
+max_y = y_coords.max()
+image = np.zeros((max_y + 1, max_x + 1), dtype=np.uint8)
+for x, y in zip(x_coords, y_coords):
+    image[y, x] = 255
+plt.imshow(image, cmap='gray')
+plt.axis('off')
+plt.show()
+```
+
+I then ran the script using the command:
+```
+pyhon3 image_reconstructor.py
+```
+Then managed to retrieve this image: ![flag](/assets/images/GlacierCTF/Figure_1.png)
+
+I therefore just added the flag prefix and subitted the final flag as: `NGCCTF{CTF_Navigating_the_Digital_Maze_4f8ae63f9}`
