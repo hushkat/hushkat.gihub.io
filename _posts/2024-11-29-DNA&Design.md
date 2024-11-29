@@ -75,6 +75,8 @@ I then ran the script using the command:
 ```
 pyhon3 image_reconstructor.py
 ```
-Then managed to retrieve this image: ![flag](/assets/images/GlacierCTF/Figure_1.png)
+Then managed to retrieve this image: 
+
+![flag](/assets/images/GlacierCTF/Figure_1.png)
 
 I therefore just added the flag prefix and subitted the final flag as: `NGCCTF{CTF_Navigating_the_Digital_Maze_4f8ae63f9}`
