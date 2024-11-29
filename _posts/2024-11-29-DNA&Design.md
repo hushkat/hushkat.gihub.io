@@ -2,7 +2,7 @@
 title: "DNA & Design"
 date: 2024-11-29 01:09:33 +0300
 author: [hushkat, mystique]
-description: GlacierCTF Writeups
+description: NextGenInCyber Writeups
 image: /assets/images/GlacierCTF/afnextgenw.png
 categories: [Crypto, Misc, Easy, GlacierCTF]
 tags: [Crypto, Misc, Easy, GlacierCTF]
