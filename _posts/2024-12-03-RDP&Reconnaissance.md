@@ -43,10 +43,12 @@ Looking at the [Mitre ATT&CK framework](https://attack.mitre.org/groups/G0016/)
 With what I have collected so far, the flag construction looks like this:
 `CYBERGON_CTF2024{Backdoor:Script/HustleCon.A_15_05_APT29}`
 
-# Secure Life - Reconnaisance
+# Secure Life - Reconnaissance
 
 The instructions were simple:
+
 What is the certificate's expiration date?
+
 Flag Format - CYBERGON_CTF2024{YYYY:MM:DD:HH:MM:SS}
 
 We were given [this](https://drive.google.com/file/d/1sRcUH_6uJKUP09difX1LLW4PIQ43Ub7z/view?usp=sharing) file. I first tried to look at the contents of the document and try to get the expiration date which was there, but then I couldn't see the specific time. So I tried to default to `00:00:00` When I submitted the flag, it failed and now I was just left with just one attempt. I therefore consulted with my friend chatGPT and he gave me this command that helped me retrieve the exact details I needed:
