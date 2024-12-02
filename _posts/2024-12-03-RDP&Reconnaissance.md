@@ -22,23 +22,23 @@ Breaking the question into small parts, we have:
 1. Are you familiar with the signature identified by Microsoft Defender for this campaign ?
 From the website mentioned at the start of this blog, I found this:
 
-![MSDefender](/assests/images/CyberGon/DefenderSignature.png)
+![MSDefender](/assets/images/CyberGon/DefenderSignature.png)
 The signature therefore seems to be: `Backdoor:Script/HustleCon.A`
 
 2. Do you know the number of well-known RDP files?
 I also found the list of RDP files as shown below:
 
-![RDPfiles](/assests/images/CyberGon/RDP_files.png)
+![RDPfiles](/assets/images/CyberGon/RDP_files.png)
 Counting from what has been listed here, we have a total of: `15`
 
 3. Number of the sender domain?
 I could also find the sender domains as shown below:
-![Domains](/assests/images/CyberGon/Domains.png)
+![Domains](/assets/images/CyberGon/Domains.png)
 We can count upto: `5`
 
 4. The APT designation associated with Midnight Blizzard?
 Looking at the [Mitre ATT&CK framework](https://attack.mitre.org/groups/G0016/)
-![APT29](/assests/images/CyberGon/APT29.png)
+![APT29](/assets/images/CyberGon/APT29.png)
 
 With what I have collected so far, the flag construction looks like this:
 `CYBERGON_CTF2024{Backdoor:Script/HustleCon.A_15_05_APT29}`
